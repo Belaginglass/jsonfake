@@ -1,0 +1,73 @@
+{
+    "usuariosTecnicos":[
+        {"id": 1, "email": "testantando@gmail.com", "cpf":"11111111111", "senha": "senha"}
+    ],
+    "usuariosAdministradores":[
+        {"id": 1,"nomeResponsavelComercial": "nome","celular": "9999999999999", "email": "testantando@gmail.com", "CNPJ":"11111111111", "senha": "senha", "logradouro":"logradouro", "numero":"numero","complemento":"complemento","bairro":"bairro", "uf":"UF", "cep":11111111, "statusSindico":true}
+    ],
+    "condominios":[
+        {"id": 1, "tipoCondominio": true , "quantidadePortarias": 32, "quantidadeUnidades": 32, "quantidadeBlocos": 12, "exigeINdentificacao": false, "chaveAcesso":11111111}
+    ],
+    "unidades":[
+        {"id": 1,"numero": 209, "bloco": "A", "rua": "avenida 1234", "petFRiendly":true, "quantidadeVAgas":1}
+    ],
+    "moradores":[
+        {"id": 1,"nome": "nome", "CPF":"11111111111", "idCondominio": 1, "celularPessoal": "9999999999999", "celularComercial":"9999999999999", "email": "testantando@gmail.com",  "senha": "senha", "statusProprietário":true}
+    ],
+    "veiculos":[
+        {"id":1, "placa": "8888888", "marca": "nissan", "modelo": "march", "cor": "vermelho", "tipoVeiculo": true}
+    ],
+    "funcionarios":[
+        {"id": 1,"nome": "nome", "CPF":"11111111111", "empresaVinculação/CNPJ": "jaardinagens bio", "celularPessoal": "9999999999999", "celularComercial":"9999999999999", "email": "testantando@gmail.com",  "senha": "senha"}
+    ],
+    "prestadoresServicos":[
+        {"id": 1,"nome": "nome", "CPF":"11111111111", "empresaVinculação/CNPJ": "jaardinagens bio", "celularPessoal": "9999999999999", "celularComercial":"9999999999999", "email": "testantando@gmail.com",  "senha": "senha", "destino": "idReserva"}
+    ],
+    "porteiros":[
+        {"id": 1,"nome": "nome", "CPF":"11111111111", "empresaVinculação/CNPJ": "jaardinagens bio", "celularPessoal": "9999999999999", "celularComercial":"9999999999999", "email": "testantando@gmail.com",  "senha": "senha"}
+    ],
+    "encomenda":[
+        {"destinatario": "idMorador", "data": "sei lá", "hora": "00:00", "recebidoPor": "idPorteiro"}
+    ],
+    "espacosComuns": [
+        {
+            "id": 1,"nome": "churrasqueira","descricao": "Espaço para churrasco","capacidadeMaxima": 34,"horarioInicio": "10:20","horarioTermino": "18:00","restricoes": "Uso restrito a moradores"
+        }
+    ],
+    "reservas": [
+        {
+        "id": 1,"tipoReserva": "festa","data": "2024-12-01","horarioInicio": "18:00","horarioTermino": "23:00",
+        "prestadoresServico": [
+            {
+                "idPrestador": 1,"nome": "nome do prestador"
+            }
+        ],
+            "unidadeResponsavel": {
+                "idUNidade": 1
+            },
+            "convidados":[
+                {"nome": "convidado1"}, {"nome": "convidado2"}
+            ]
+        }
+    ],
+    "mudancas": [
+        { "id": 1, "dataReserva": "2024-12-10", "horarioInicio": "08:00", "horarioTermino": "12:00", "confirmada": true, 
+        "transportadora": {
+            "nomeEmpresa": "Transportes LTDA",
+            "placaVeiculo": "AAA1234"
+            }
+        }
+    ],
+    "obras": [
+        {
+            "id": 1,"dataInicio": "2024-11-20","dataTermino": "2024-12-05","empresaResponsavel": "Construtora XYZ","descricaoObra": "Reparo na fachada","status": "Em Análise"
+        }
+    ],
+    "circulares": [
+        {
+            "id": 1,"data": "2024-11-15","descricao": "Aviso de manutenção"
+        }
+    ]
+
+
+}
