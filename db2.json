@@ -1,0 +1,47 @@
+{
+    "usuarios": [
+        {"id": 1, "email": "tecnico1@gmail.com", "cpf": "11111111111", "senha": "senha123"},
+        {"id": 2, "email": "tecnico2@gmail.com", "cpf": "22222222222", "senha": "senha456"},
+        {"id": 3, "email": "tecnico3@gmail.com", "cpf": "33333333333", "senha": "senha789"}
+    ],
+    "usuariosAdministradores": [
+        {"id": 1, "nomeResponsavelComercial": "Admin1", "celular": "99999999999", "email": "admin1@gmail.com", "CNPJ": "11111111111", "senha": "senha1", "logradouro": "Rua A", "numero": "10", "complemento": "Apto 101", "bairro": "Bairro A", "uf": "UF", "cep": 11111111, "statusSindico": true},
+        {"id": 2, "nomeResponsavelComercial": "Admin2", "celular": "88888888888", "email": "admin2@gmail.com", "CNPJ": "22222222222", "senha": "senha2", "logradouro": "Rua B", "numero": "20", "complemento": "Apto 202", "bairro": "Bairro B", "uf": "UF", "cep": 22222222, "statusSindico": false},
+        {"id": 3, "nomeResponsavelComercial": "Admin3", "celular": "77777777777", "email": "admin3@gmail.com", "CNPJ": "33333333333", "senha": "senha3", "logradouro": "Rua C", "numero": "30", "complemento": "Apto 303", "bairro": "Bairro C", "uf": "UF", "cep": 33333333, "statusSindico": true}
+    ],
+    "condominios": [
+        {"id": 1, "nome": "exemplo1", "tipoCondominio": true, "quantidadePortarias": 2, "quantidadeUnidades": 32, "quantidadeBlocos": 5, "exigeIndentificacao": false, "chaveAcesso": 12345678},
+        {"id": 2, "nome": "exemplo2", "tipoCondominio": false, "quantidadePortarias": 1, "quantidadeUnidades": 16, "quantidadeBlocos": 3, "exigeIndentificacao": true, "chaveAcesso": 87654321},
+        {"id": 3, "nome": "exemplo3", "tipoCondominio": true, "quantidadePortarias": 3, "quantidadeUnidades": 50, "quantidadeBlocos": 8, "exigeIndentificacao": true, "chaveAcesso": 11223344}
+    ],
+    "unidades": [
+        {"id": 1, "numero": 101, "bloco": "A", "rua": "Avenida 1", "petFriendly": true, "quantidadeVAgas": 1},
+        {"id": 2, "numero": 202, "bloco": "B", "rua": "Avenida 2", "petFriendly": false, "quantidadeVAgas": 2},
+        {"id": 3, "numero": 303, "bloco": "C", "rua": "Avenida 3", "petFriendly": true, "quantidadeVAgas": 0}
+    ],
+    "moradores": [
+        {"id": 1, "nome": "Morador 1", "CPF": "11111111111", "idCondominio": 1, "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "morador1@gmail.com", "senha": "senha1", "statusProprietário": true},
+        {"id": 2, "nome": "Morador 2", "CPF": "22222222222", "idCondominio": 2, "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "morador2@gmail.com", "senha": "senha2", "statusProprietário": false},
+        {"id": 3, "nome": "Morador 3", "CPF": "33333333333", "idCondominio": 1, "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "morador3@gmail.com", "senha": "senha3", "statusProprietário": true}
+    ],
+    "veiculos": [
+        {"id": 1, "placa": "AAA1111", "marca": "Toyota", "modelo": "Corolla", "cor": "Preto", "tipoVeiculo": true},
+        {"id": 2, "placa": "BBB2222", "marca": "Honda", "modelo": "Civic", "cor": "Branco", "tipoVeiculo": false},
+        {"id": 3, "placa": "CCC3333", "marca": "Ford", "modelo": "Fiesta", "cor": "Azul", "tipoVeiculo": true}
+    ],
+    "funcionarios": [
+        {"id": 1, "nome": "Funcionario 1", "CPF": "11111111111", "empresa": "Empresa 1", "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "func1@gmail.com", "senha": "senha1"},
+        {"id": 2, "nome": "Funcionario 2", "CPF": "22222222222", "empresa": "Empresa 2", "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "func2@gmail.com", "senha": "senha2"},
+        {"id": 3, "nome": "Funcionario 3", "CPF": "33333333333", "empresa": "Empresa 3", "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "func3@gmail.com", "senha": "senha3"}
+    ],
+    "prestadoresServicos": [
+        {"id": 1, "nome": "Prestador 1", "CPF": "11111111111", "empresa": "Empresa X", "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "prest1@gmail.com", "senha": "senha1", "destino": "idReserva"},
+        {"id": 2, "nome": "Prestador 2", "CPF": "22222222222", "empresa": "Empresa Y", "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "prest2@gmail.com", "senha": "senha2", "destino": "idReserva"},
+        {"id": 3, "nome": "Prestador 3", "CPF": "33333333333", "empresa": "Empresa Z", "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "prest3@gmail.com", "senha": "senha3", "destino": "idReserva"}
+    ],
+    "porteiros": [
+        {"id": 1, "nome": "Porteiro 1", "CPF": "11111111111", "empresa": "Empresa P1", "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "port1@gmail.com", "senha": "senha1"},
+        {"id": 2, "nome": "Porteiro 2", "CPF": "22222222222", "empresa": "Empresa P2", "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "port2@gmail.com", "senha": "senha2"},
+        {"id": 3, "nome": "Porteiro 3", "CPF": "33333333333", "empresa": "Empresa P3", "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "port3@gmail.com", "senha": "senha3"}
+    ]
+}
