@@ -5,23 +5,23 @@
         {"id": 3, "email": "tecnico3@gmail.com", "cpf": "33333333333", "senha": "senha789"}
     ],
     "condominios": [
-        {"id": 1, "nome": "exemplo1", "tipoCondominio": "true", "quantidadePortarias": 2, "quantidadeUnidades": 32, "quantidadeBlocos": 5, "exigeIndentificacao": "false", "chaveAcesso": 12345678},
-        {"id": 2, "nome": "exemplo2", "tipoCondominio": "false", "quantidadePortarias": 1, "quantidadeUnidades": 16, "quantidadeBlocos": 3, "exigeIndentificacao": "true", "chaveAcesso": 87654321},
-        {"id": 3, "nome": "exemplo3", "tipoCondominio": "true", "quantidadePortarias": 3, "quantidadeUnidades": 50, "quantidadeBlocos": 8, "exigeIndentificacao": "true", "chaveAcesso": 11223344}
+        {"id": 1, "nome": "Condomínio do Sol", "tipoCondominio": "Casa", "quantidadePortarias": 2, "quantidadeUnidades": 32, "quantidadeBlocos": 5, "exigeIndentificacao": "Sim", "chaveAcesso": 12345678},
+        {"id": 2, "nome": "Jardim de Minas", "tipoCondominio": "Apartamento", "quantidadePortarias": 1, "quantidadeUnidades": 16, "quantidadeBlocos": 3, "exigeIndentificacao": "Não", "chaveAcesso": 87654321},
+        {"id": 3, "nome": "Bosque Imperial", "tipoCondominio": "Apartamento", "quantidadePortarias": 3, "quantidadeUnidades": 50, "quantidadeBlocos": 8, "exigeIndentificacao": "Não", "chaveAcesso": 11223344}
     ],
     "unidades": [
         {"id": 1, "numero": 101, "bloco": "A", "rua": "Avenida 1", "petFriendly": "true", "quantidadeVagas": 1,  "idCondominio": 1},
         {"id": 2, "numero": 202, "bloco": "B", "rua": "Avenida 2", "petFriendly": "false", "quantidadeVagas": 2, "idCondominio": 1},
-        {"id": 3, "numero": 303, "bloco": "C", "rua": "Avenida 3", "petFriendly": "true", "quantidadeVagas": 0, "idCondominio": 1}
+        {"id": 3, "numero": 303, "bloco": "C", "rua": "Avenida 3", "petFriendly": "true", "quantidadeVagas": 2, "idCondominio": 1}
     ],
     "funcionarios": [
-        {"id": 1, "nome": "Funcionario 1", "CPF": "11111111111", "empresa": "Empresa 1", "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "func1@gmail.com", "senha": "senha1", "idCondominio": 1},
-        {"id": 2, "nome": "Funcionario 2", "CPF": "22222222222", "empresa": "Empresa 2", "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "func2@gmail.com", "senha": "senha2", "idCondominio": 1},
-        {"id": 3, "nome": "Funcionario 3", "CPF": "33333333333", "empresa": "Empresa 3", "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "func3@gmail.com", "senha": "senha3", "idCondominio": 1}
+        {"id": 1, "nome": "Maria Flores", "CPF": "11111111111", "empresa": "Empresa 1", "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "func1@gmail.com", "senha": "senha1", "idCondominio": 1},
+        {"id": 2, "nome": "Roberto Santos", "CPF": "22222222222", "empresa": "Empresa 2", "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "func2@gmail.com", "senha": "senha2", "idCondominio": 1},
+        {"id": 3, "nome": "Mário Araújo", "CPF": "33333333333", "empresa": "Empresa 3", "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "func3@gmail.com", "senha": "senha3", "idCondominio": 1}
     ],
     "moradores": [
-        {"id": 1, "nome": "Morador 1", "CPF": "11111111111", "idCondominio": 1, "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "morador1@gmail.com", "senha": "senha1", "statusProprietario": "true"},
-        {"id": 2, "nome": "Morador 2", "CPF": "22222222222", "idCondominio": 2, "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "morador2@gmail.com", "senha": "senha2", "statusProprietario": "false"},
-        {"id": 3, "nome": "Morador 3", "CPF": "33333333333", "idCondominio": 1, "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "morador3@gmail.com", "senha": "senha3", "statusProprietario": "true"}
+        {"id": 1, "nome": "Sabrina", "CPF": "11111111111", "idCondominio": 1, "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "morador1@gmail.com", "senha": "senha1", "statusProprietario": "Sim"},
+        {"id": 2, "nome": "Paulo", "CPF": "22222222222", "idCondominio": 2, "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "morador2@gmail.com", "senha": "senha2", "statusProprietario": "Não"},
+        {"id": 3, "nome": "Matheus ", "CPF": "33333333333", "idCondominio": 3, "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "morador3@gmail.com", "senha": "senha3", "statusProprietario": "Não"}
     ]
 }
