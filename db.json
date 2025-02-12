@@ -20,8 +20,8 @@
         {"id": 3, "nome": "Mário Araújo", "CPF": "33333333333", "empresa": "Empresa 3", "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "func3@gmail.com", "senha": "senha3", "idCondominio": 1}
     ],
     "moradores": [
-        {"id": 1, "nome": "Sabrina", "CPF": "11111111111", "idCondominio": 1, "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "morador1@gmail.com", "senha": "senha1", "statusProprietario": "Sim"},
-        {"id": 2, "nome": "Paulo", "CPF": "22222222222", "idCondominio": 2, "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "morador2@gmail.com", "senha": "senha2", "statusProprietario": "Não"},
-        {"id": 3, "nome": "Matheus ", "CPF": "33333333333", "idCondominio": 3, "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "morador3@gmail.com", "senha": "senha3", "statusProprietario": "Não"}
+        {"id": 1, "nome": "Sabrina", "CPF": "11111111111", "idCondominio": 1, "idUnidade": 302, "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "morador1@gmail.com", "senha": "senha1", "statusProprietario": "Sim"},
+        {"id": 2, "nome": "Paulo", "CPF": "22222222222", "idCondominio": 2, "idUnidade": 302, "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "morador2@gmail.com", "senha": "senha2", "statusProprietario": "Não"},
+        {"id": 3, "nome": "Matheus ", "CPF": "33333333333", "idCondominio": 3,"idUnidade": 302, "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "morador3@gmail.com", "senha": "senha3", "statusProprietario": "Não"}
     ]
 }
