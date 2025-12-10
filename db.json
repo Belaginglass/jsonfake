@@ -2,12 +2,7 @@
   "condominios": [
     { "id": 1, "nome": "Residencial Primavera", "endereco": "Rua das Flores, 120", "telefone": "11988887777" },
     { "id": 2, "nome": "Condomínio Solar", "endereco": "Avenida Central, 950", "telefone": "11999996666" }
-  ],
-   "blocos": [
-    {"id": 1, "logradouro": "Rua das Palmeiras, 120", "nome": "Bloco A", "nomeCondominio": "Residencial Jardim Europa"},
-    {"id": 2,"logradouro": "Avenida Central, 890","nome": "Bloco B","nomeCondominio": "Condomínio Morada do Sol"}
-   ],
-
+  ]
   "unidades": [
     { "id": 1, "numero": "101", "bloco": "A", "idCondominio": 1 },
     { "id": 2, "numero": "102", "bloco": "A", "idCondominio": 1 },
