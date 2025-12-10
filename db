@@ -1,0 +1,30 @@
+{
+  "usuarios": [
+    { "id": 1, "email": "adm1@gmail.com", "cpf": "11111111111", "senha": "senha123" },
+    { "id": 2, "email": "adm2@gmail.com", "cpf": "22222222222", "senha": "senha456" },
+    { "id": 3, "email": "adm3@gmail.com", "cpf": "33333333333", "senha": "senha789" }
+  ],
+
+  "condominios": [
+    { "id": 1, "nome": "Condomínio Horizonte Azul", "tipoCondominio": "Apartamento", "quantidadePortarias": 2, "quantidadeUnidades": 60, "quantidadeBlocos": 4, "exigeIndentificacao": "Sim", "chaveAcesso": 12345678 },
+    { "id": 2, "nome": "Residencial Vila Bela", "tipoCondominio": "Casa", "quantidadePortarias": 1, "quantidadeUnidades": 35, "quantidadeBlocos": 0, "exigeIndentificacao": "Não", "chaveAcesso": 87654321 }
+  ],
+
+  "unidades": [
+    { "id": 1, "numero": 101, "bloco": "A", "rua": "Rua das Palmeiras", "petFriendly": "Sim", "quantidadeVagas": 1, "idCondominio": 1 },
+    { "id": 2, "numero": 203, "bloco": "B", "rua": "Rua das Acácias", "petFriendly": "Não", "quantidadeVagas": 2, "idCondominio": 1 },
+    { "id": 3, "numero": 12, "bloco": "Único", "rua": "Rua Central", "petFriendly": "Sim", "quantidadeVagas": 2, "idCondominio": 2 }
+  ],
+
+  "moradores": [
+    { "id": 1, "nome": "Carlos Silva", "cpf": "44444444444", "celularPessoal": "99999999999", "celularComercial": "88888888888", "email": "carlos@gmail.com", "senha": "1234", "statusProprietario": "Sim", "idCondominio": 1, "idUnidade": 1 },
+    { "id": 2, "nome": "Fernanda Oliveira", "cpf": "55555555555", "celularPessoal": "77777777777", "celularComercial": "66666666666", "email": "fernanda@gmail.com", "senha": "1234", "statusProprietario": "Não", "idCondominio": 1, "idUnidade": 2 },
+    { "id": 3, "nome": "Tiago Mendes", "cpf": "66666666666", "celularPessoal": "55555555555", "celularComercial": "44444444444", "email": "tiago@gmail.com", "senha": "1234", "statusProprietario": "Sim", "idCondominio": 2, "idUnidade": 3 }
+  ],
+
+  "veiculos": [
+    { "id": 1, "modelo": "Corolla", "marca": "Toyota", "placa": "ABC1D23", "cor": "Prata", "idUnidade": 1 },
+    { "id": 2, "modelo": "HB20", "marca": "Hyundai", "placa": "XYZ9Z99", "cor": "Branco", "idUnidade": 2 },
+    { "id": 3, "modelo": "Civic", "marca": "Honda", "placa": "AAA0A00", "cor": "Preto", "idUnidade": 3 }
+  ]
+}
